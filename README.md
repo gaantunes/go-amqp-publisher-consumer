@@ -4,4 +4,4 @@ In order to build your docker images. use the following commands from the projec
 
 `docker build -f ./src/consumer/Dockerfile -t gaantunes/go-amqp-consumer:latest .`
 
-`docker build -f ./src/consumer/Dockerfile -t gaantunes/go-amqp-publisher:latest .`
+`docker build -f ./src/publisher/Dockerfile -t gaantunes/go-amqp-publisher:latest .`
